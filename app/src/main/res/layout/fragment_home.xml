@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.HomeFragment"
+    android:layout_marginTop="@dimen/small_margin"
+    android:background="@color/background_color">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rviewEventsCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/rview_event_card_list" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/progressBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBlankState"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/large_margin"
+        android:layout_marginEnd="@dimen/large_margin"
+        android:gravity="center"
+        android:text="@string/txt_blank_state_event_list"
+        android:textColor="@color/text_title_color"
+        android:textSize="@dimen/default_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

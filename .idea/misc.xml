@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3635" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/drawable_progressbar.xml" value="0.1835" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/ic_calendar.xml" value="0.3635" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/ic_check.xml" value="0.3635" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/ic_clock.xml" value="0.3635" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/ic_image_not_found.xml" value="0.1655" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/ic_location.xml" value="0.3635" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/ic_money.xml" value="0.1655" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/ic_share.xml" value="0.3635" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/layout_elevation.xml" value="0.1835" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/shape_check_in_button.xml" value="0.25" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/shape_corners_rounded.xml" value="0.3025" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/drawable/shape_event_card.xml" value="0.3635" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/activity_main.xml" value="0.21077012159814706" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/check_in_card.xml" value="0.25" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/fragment_check_in.xml" value="0.1" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/fragment_event_details.xml" value="0.22" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/fragment_splash.xml" value="0.20208333333333334" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/rview_event_card_list.xml" value="0.33" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/layout/toolbar.xml" value="0.24791666666666667" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1975" />
+        <entry key="..\:/Projetos/AppEvents/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.161" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/drawable/shape_btn_checkin.xml" value="0.171" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/check_in_card.xml" value="0.3625" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/check_in_dialog_custom_layout.xml" value="0.3614583333333333" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/fragment_check_in.xml" value="0.3088768115942029" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/fragment_event_details.xml" value="0.33" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/fragment_splash.xml" value="0.3625" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/rview_event_card_list.xml" value="0.3625" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/layout/toolbar.xml" value="0.3625" />
+        <entry key="..\:/projetos android/AppEvents/app/src/main/res/xml/filepaths.xml" value="0.23489583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="androidx.databinding.BindingAdapter" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppEvents</string>
+    <string name="txt_event_list">Lista de eventos</string>
+    <string name="more_event_details">Mostrar mais</string>
+    <string name="less_event_details">Mostrar menos</string>
+    <string name="label_email">Email</string>
+    <string name="label_evento">Evento</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_name">Nome</string>
+    <string name="label_preco">Preço</string>
+    <string name="label_checkIn">Check-in</string>
+    <string name="accept">OK</string>
+    <string name="share">Compartilhar</string>
+    <string name="txt_check_in">Check-In</string>
+    <string name="error">Error</string>
+    <string name="invalid_name_email">Email ou nome inválido.</string>
+    <string name="success">Sucesso</string>
+    <string name="success_checkin">Seu Check-In para o evento foi\nRealizado com Sucesso.</string>
+    <string name="error_checkin">Não foi possivel realizar o Check-In\nTente novamente.</string>
+    <string name="txt_blank_state_event_list">Não foi possível carregar lista de eventos</string>
+    <string name="txt_blank_state_event_details">Não foi possível carregar detalhes do evento</string>
+    <string name="txt_event_price">R$ %s</string>
+    <string name="text_toolbar_event_list">Detalhes do evento</string>
+    <string name="text_toolbar_check_in">Check-In</string>
+    <string name="text_no_location_error">Localização indisponível.</string>
+    <string name="text_share_event">Compartilhar Evento.</string>
+</resources>
