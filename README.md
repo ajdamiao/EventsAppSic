@@ -24,3 +24,4 @@ As características funcionais e não funcionais do app consistem em:
 - Opção para poder ver mais detalhes do evento;
 - Opção para poder fazer chek-in no evento utilizando email e nome;
 - Opção para poder compartilhar evento.
+"# eventsAppSic" 
