@@ -10,8 +10,18 @@ import androidx.viewbinding.ViewBinding
 import com.bumptech.glide.Glide
 import com.example.appevents.R
 import java.util.*
+import java.util.regex.Pattern
 
 class Util() {
+    private val EMAIL_ADDRESS_PATTERN: Pattern = Pattern.compile(
+        "[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}" +
+                "\\@" +
+                "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" +
+                "(" +
+                "\\." +
+                "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" +
+                ")+"
+    )
 
     fun dateFormatter(date: Long): String {
         val c = Calendar.getInstance()
@@ -38,14 +48,8 @@ class Util() {
         context.startActivity(Intent.createChooser(sharingIntent, context.resources.getString(R.string.text_share_event)))
     }
 
-    fun isEmailValid(email : String): Boolean {
-        val emailSplit = email.split("@")
-
-        return if(emailSplit.size >= 2) {
-            email.isNotEmpty() && emailSplit[0].isNotEmpty() && emailSplit[1].isNotEmpty()
-        } else {
-            false
-        }
+    fun isEmailValid(email: String): Boolean {
+        return EMAIL_ADDRESS_PATTERN.matcher(email).matches()
     }
 
     fun isNameValid(name: String): Boolean {
